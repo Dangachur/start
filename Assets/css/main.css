@@ -1,0 +1,114 @@
+/*CSS for the Body*/
+*{
+    padding: 5px;
+}
+body{
+    background-image: url(../images/one_punch_man-wallpaper-10787317.jpg);
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5em; 
+}
+/*----Header----*/
+.header{
+    color: black;
+    text-align: center;
+}
+/*--- Header ends here---*/
+
+/*---- Form for Login in ----*/
+.block{
+    border: red solid;
+    background-image: url('../images/Samurai-wallpaper-10193182\ \(1\).jpg');
+    padding: 5px;
+    width: 30%;
+    margin: auto;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: blue;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form label{
+    flex: 1;
+}
+.my-form input[type="text"]{
+    padding: 10px;
+    width: 100%;
+    flex: 2;
+    margin: auto;
+}
+.my-form input[type="submit"]{
+    background-color: brown;
+    padding: 10px 30px;
+}
+.link:hover{
+    color: red;
+}
+
+.footer{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.header-app{
+    position: absolute;
+    size: 20px;
+    text-align: left;
+    
+}
+.body-header{
+    text-align: center;
+    color: aliceblue;
+    font-style: oblique;
+}
+.header-body{
+    border: black solid;
+    background-color: brown;
+    width: 40%;
+    margin-left: 30%;
+}
+.title-body{
+    color: aliceblue;
+    text-align: center;
+}
+.categories{
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    list-style: decimal;
+}
+.categories li{
+    padding: 10px;
+
+}
+.section1{
+    float:left;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: darkgreen;
+}
+.section2{
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: teal ;
+}
+.menu{
+    float: right;
+    
+}
